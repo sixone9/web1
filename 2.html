@@ -1,0 +1,32 @@
+
+<!doctype html>
+<html>
+<head>
+<title>WEB1 - CSS</title>
+<meta charset="utf-8">
+</head>
+<body>
+  <h1><a href="index.html" target="_self">WEB</a></h1>
+  <ol>
+    <li><a href="1.html" target="_self">HTML</a></li>
+    <li><a href="2.html" target="_self">CSS</a></li>
+    <li><a href="3.html" target="_self">JavaScript</a></li>
+  </ol>
+<h2>CSS</h2>
+<p>
+  – 스킨과 모델을 별도로 관리해야 하는 번거로움을 최소화하기 위해 스킨마다 고유의
+  모델 파일을 가지고 있으며,
+    게시판 추가시 기본 모델로 설정됩니다
+  – 스킨 모델 파일 : mangboard/skins/스킨이름/includes/skin-model.php
+  – 모델 폴더(mangboard/models)는 스킨 모델 파일 이외의 모델 파일들을 관리하는 폴더입니다
+  – 같은 스킨을 사용하는 2개 이상의 게시판에 같은 기능의 모델 파일을 설정하려면 스킨
+  모델 파일을 모델 폴더(mangboard/models)에 복사한 후 게시판 설정(관리자>Mangboard>
+  게시판 관리>설정 버튼 클릭)
+   화면에서 모델 이름을 복사한 모델 파일로 설정하신후 수정해서 사용하시면 됩니다
+  – 기본적으로 제공하는 "form" 모델(mangboard/models/form.php)은 게시판을 입력폼 양식으로
+  사용할 수 있도록 해주는 모델입니다
+   (글작성 화면이 처음 나타나고, 글작성시 "등록되었습니다" 팝업창을 뛰우고 새로고침이 되도록
+   설정)
+</p>
+</body>
+</html>
